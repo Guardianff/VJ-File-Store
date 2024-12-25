@@ -23,8 +23,8 @@ API_HASH = environ.get("API_HASH", "726da88d04eeb25755696e32c23b0ba5")
 BOT_TOKEN = environ.get("BOT_TOKEN", "8036160570:AAHsUHt0w1-p_ByzcxD7_UVY-71ekGsrF-M")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1350212613').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1350212613 7503226921').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "amfilestorebot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
